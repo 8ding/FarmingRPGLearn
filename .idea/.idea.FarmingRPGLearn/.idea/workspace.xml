@@ -57,12 +57,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/ItemCodeDescriptionAttribute.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/Editor/ItemCodeDescriptionDrawer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemNudge.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uq7ZBDACltQrXqBNRTQTajHc0X" />
@@ -113,7 +113,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625381319020</updated>
       <workItem from="1625381322772" duration="12125000" />
-      <workItem from="1625889275381" duration="22106000" />
+      <workItem from="1625889275381" duration="22463000" />
+      <workItem from="1625920251869" duration="830000" />
     </task>
     <servers />
   </component>

@@ -7,11 +7,26 @@ public class InventoryManager : SingletonMonoBehavior<InventoryManager>
 {
     private Dictionary<int, ItemDetails> itemDeatailsDictionary;
     [SerializeField] private SO_ItemList itemList = null;
+    public List<InventoryItem>[] inventoryLists;
+    public int[] inventroyListCapacityIntArray;
+    
 
     protected override void Awake()
     {
         base.Awake();
+        CreateInventoryLists();
         CreateItemDeatailsDictionary();
+    }
+
+    private void CreateInventoryLists()
+    {
+        inventoryLists = new List<InventoryItem>[(int) InventoryLocation.count];
+        for (int i = 0; i < (int) InventoryLocation.count; i++)
+        {
+            inventoryLists[i] = new List<InventoryItem>();
+        }
+        inventroyListCapacityIntArray = new int[(int) InventoryLocation.count];
+        inventroyListCapacityIntArray[(int) InventoryLocation.player] = Settings.playerInitialInventoryCapacity;
     }
 
     private void Start()
