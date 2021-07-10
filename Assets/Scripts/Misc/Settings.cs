@@ -11,6 +11,10 @@ public static class Settings
     //玩家移动
     public const float runningSpeed = 5.333f;
     public const float walkingSpeed = 2.666f;
+    //Inventroy
+    public static int playerInitialInventoryCapacity = 24;
+    public static int playerMaxiumInventoryCapacity = 48;
+    
     //玩家动画参数
     public static int xInput;
     public static int yInput;

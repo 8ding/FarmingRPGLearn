@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 public delegate void MovementDelegate(float inputx, float inputy, bool isWalking, bool isRunning, bool isIdle, bool isCarrying, ToolEffect toolEffect,
     bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown, 
@@ -11,6 +12,12 @@ public delegate void MovementDelegate(float inputx, float inputy, bool isWalking
 
 public static class EventHandler
 {
+    public static event Action<InventoryLocation, List<InventoryItem>> InventoryUpdateEvent;
+
+    public static void CallInventoryUpdatedEvent(InventoryLocation _inventoryLocation, List<InventoryItem> inventoryList)
+    {
+        InventoryUpdateEvent?.Invoke(_inventoryLocation, inventoryList);
+    }
     public static event MovementDelegate MovmentEvent;
 
     public static void CallMovementEvent(float inputx, float inputy, bool isWalking, bool isRunning, bool isIdle, bool isCarrying, ToolEffect toolEffect,
@@ -31,4 +38,5 @@ public static class EventHandler
                 idleUp,idleDown,idleLeft,idleRight);
         }
     }
+    
 }

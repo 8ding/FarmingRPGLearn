@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
+    [ItemCodeDescript]
     [SerializeField]
     private int _itemCode;
     private SpriteRenderer spriteRenderer;
@@ -36,7 +37,20 @@ public class Item : MonoBehaviour
 
     public void Init(int itemCodeParam)
     {
-        
+        if (itemCodeParam != 0)
+        {
+            ItemCode = itemCodeParam;
+
+            ItemDetails itemDetails = InventoryManager.Instance.GetItemDeatails(ItemCode);
+
+            spriteRenderer.sprite = itemDetails.itemSprite;
+
+            // If item type is reapable then add nudgeable component
+            if (itemDetails.itemType == ItemType.Reapable_Scenary)
+            {
+                gameObject.AddComponent<ItemNudge>();
+            }
+        }
     }
     
 }

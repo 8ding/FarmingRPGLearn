@@ -10,8 +10,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/db/f142317d/Action.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32636AE6-960C-4FA2-A40F-A59D54AB0FF6/fc/b3af5584/PropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" root0="FORCE_HIGHLIGHTING" />
@@ -19,33 +28,41 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/66/66c6d6c3/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/Editor/ItemCodeDescriptionDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/TriggerObscuringItmeFader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ItemNudge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/ItemCodeDescriptAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/SO_ItemList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C2BABAB-467C-4D89-BEEB-E2F694DC090F/77/4abe45f9/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Misc/SingletonMonoBehavior.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Tags.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene/ObscuringItemFader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/TriggerObscuringItmeFader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ObscuringItemFader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemDetails.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/SO_ItemList.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/ItemCodeDescriptionAttribute.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/Editor/ItemCodeDescriptionDrawer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemNudge.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uq7ZBDACltQrXqBNRTQTajHc0X" />
@@ -96,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625381319020</updated>
       <workItem from="1625381322772" duration="12125000" />
-      <workItem from="1625889275381" duration="13012000" />
+      <workItem from="1625889275381" duration="22106000" />
     </task>
     <servers />
   </component>

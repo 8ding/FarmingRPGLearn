@@ -8,20 +8,28 @@ public class InventoryManager : SingletonMonoBehavior<InventoryManager>
     private Dictionary<int, ItemDetails> itemDeatailsDictionary;
     [SerializeField] private SO_ItemList itemList = null;
 
+    protected override void Awake()
+    {
+        base.Awake();
+        CreateItemDeatailsDictionary();
+    }
+
     private void Start()
     {
-        CreateItemDeatailsDictionary();
     }
     /// <summary>
     /// 使用Scriptable objec 填充字典
     /// </summary>
     private void CreateItemDeatailsDictionary()
     {
-        itemDeatailsDictionary = new Dictionary<int, ItemDetails>();
-
-        foreach (var itemDeatails in itemList.itemDetailsList)
+        if(itemDeatailsDictionary == null)
         {
-            itemDeatailsDictionary.Add(itemDeatails.itemCode, itemDeatails);
+            itemDeatailsDictionary = new Dictionary<int, ItemDetails>();
+
+            foreach (var itemDeatails in itemList.itemDetailsList)
+            {
+                itemDeatailsDictionary.Add(itemDeatails.itemCode, itemDeatails);
+            }
         }
     }
 
