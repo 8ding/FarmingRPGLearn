@@ -23,6 +23,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32636AE6-960C-4FA2-A40F-A59D54AB0FF6/fc/b3af5584/PropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,11 +34,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C2BABAB-467C-4D89-BEEB-E2F694DC090F/dd/61f0c59a/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ItemNudge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/ItemCodeDescriptAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.3.8f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/SO_ItemList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UiInventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C2BABAB-467C-4D89-BEEB-E2F694DC090F/77/4abe45f9/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -45,7 +49,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Misc/SingletonMonoBehavior.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Tags.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene/ObscuringItemFader.cs" />
@@ -53,7 +56,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ObscuringItemFader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemDetails.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/SO_ItemList.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/ItemCodeDescriptionAttribute.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/Editor/ItemCodeDescriptionDrawer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" />
@@ -62,6 +64,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UiInventorySlot.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" />
     </changedPaths>
   </component>
@@ -114,7 +120,8 @@
       <updated>1625381319020</updated>
       <workItem from="1625381322772" duration="12125000" />
       <workItem from="1625889275381" duration="22463000" />
-      <workItem from="1625920251869" duration="830000" />
+      <workItem from="1625920251869" duration="876000" />
+      <workItem from="1625975102868" duration="9087000" />
     </task>
     <servers />
   </component>
