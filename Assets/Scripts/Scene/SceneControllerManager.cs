@@ -24,6 +24,7 @@ public class SceneControllerManager : SingletonMonoBehavior<SceneControllerManag
     IEnumerator FadeAndSwitchScenes(string sceneName, Vector3 spawnPosition)
     {
         EventHandler.CallBeforeSceneUnloadFadeOutEvent();
+        
         yield return StartCoroutine(Fade(1f));
 
         Player.Instance.gameObject.transform.position = spawnPosition;
