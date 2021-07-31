@@ -29,9 +29,5 @@ public class TriggerObscuringItmeFader : MonoBehaviour
             }
         }
     }
-
-    private void OnTr(Collider other)
-    {
-
-    }
+    
 }

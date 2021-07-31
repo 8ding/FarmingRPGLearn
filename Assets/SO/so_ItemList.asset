@@ -15,7 +15,7 @@ MonoBehaviour:
   itemDetailsList:
   - itemCode: 10000
     itemType: 0
-    itemDescription: "\u79CD\u5B50"
+    itemDescription: Seed
     itemSprite: {fileID: 21300000, guid: 730e572c78cf0244ca0db36bb8f3af7f, type: 3}
     itemLongDescription: "\u6A61\u6811\u79CD\u5B50\uFF0C\u53EF\u4EE5\u88AB\u79CD\u690D"
     itemUseGridRadius: 2

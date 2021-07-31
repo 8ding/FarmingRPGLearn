@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Line
   - BoundsConfiner
+  - ItemParentTransform
   layers:
   - Default
   - TransparentFX

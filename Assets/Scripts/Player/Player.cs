@@ -1,6 +1,8 @@
 
 using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : SingletonMonoBehavior<Player>
 {
@@ -37,7 +39,11 @@ public class Player : SingletonMonoBehavior<Player>
     private float movementSpeed;
 
     private bool _playerInputIsDisabled = false;
-
+    private AnimationOverrides animationOverrides;
+    private List<CharacterAttribute> characterAttributeCustomisationList;
+    private CharacterAttribute armsCharacterAttribute;
+    private CharacterAttribute toolsCharacterAttribute;
+    [SerializeField] private SpriteRenderer equippedItemSpriteRenderer = null;
     public bool PlayerInputIsDisabled
     {
         get
@@ -55,23 +61,48 @@ public class Player : SingletonMonoBehavior<Player>
         base.Awake();
         rigidbody2D = GetComponent<Rigidbody2D>();
         MainCamera = Camera.main;
+        animationOverrides = GetComponentInChildren<AnimationOverrides>();
+
+        armsCharacterAttribute = new CharacterAttribute(CharacterPartAnimator.arms, PartVariantColour.none, PartVariantType.none);
+        characterAttributeCustomisationList = new List<CharacterAttribute>();
     }
 
     private void Update()
     {
         #region PlayerInput
-        ResetAnimationTriggers();
-        PlayerMovementInput();
-        PlayerWalkInput();
-        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
-            isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
-            isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
-            isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
-            isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
-            false, false, false, false);
+        if(!PlayerInputIsDisabled)
+        {
+            InputCheck();
+            ResetAnimationTriggers();
+            PlayerMovementInput();
+            PlayerWalkInput();
+            EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
+                isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
+                isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
+                isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
+                isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
+                false, false, false, false);
+
+        }
         #endregion
     }
 
+    private void InputCheck()
+    {
+        if(Input.GetKey(KeyCode.Space))
+        {
+            TimeManager.Instance.TestAdvanceGameMinute();
+        }
+        if(Input.GetKeyDown(KeyCode.Backspace))
+        {
+            TimeManager.Instance.TestAdvanceGameDay();
+        }
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            SceneControllerManager.Instance.FadeAndLoadScene("Scene1_Farm", transform.position);
+            
+        }
+    }
     private void FixedUpdate()
     {
         PlayerMovement();
@@ -163,9 +194,65 @@ public class Player : SingletonMonoBehavior<Player>
         }
     }
 
+    public void EnablePlayerInput()
+    {
+        _playerInputIsDisabled = false;
+    }
+    public void DisablePlayerInput()
+    {
+        _playerInputIsDisabled = true;
+    }
+
+    public void DisableInputAndResetMovement()
+    {
+        DisablePlayerInput();
+        ResetMovement();
+        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
+            isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
+            isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
+            isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
+            isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
+            false, false, false, false);
+    }
+
+    public void ResetMovement()
+    {
+        xInput = 0;
+        yInput = 0;
+        isRunning = false;
+        isWalking = false;
+        isIdle = true;
+    }
     public Vector3 GetPlayerViewportPosition()
     {
         Vector3 playerViewportPosition = MainCamera.WorldToViewportPoint(transform.position);
         return playerViewportPosition;
+    }
+
+    public void ShowedCarriedItem(int itemCode)
+    {
+        ItemDetails itemDetails = InventoryManager.Instance.GetItemDeatails(itemCode);
+        if(itemDetails != null)
+        {
+            equippedItemSpriteRenderer.sprite = itemDetails.itemSprite;
+            equippedItemSpriteRenderer.color = new Color(1f, 1f, 1f, 1f);
+            armsCharacterAttribute.partVariantType = PartVariantType.carry;
+            characterAttributeCustomisationList.Clear();
+            characterAttributeCustomisationList.Add(armsCharacterAttribute);
+            animationOverrides.ApplyCharacterCustomisationParameters(characterAttributeCustomisationList);
+
+            isCarrying = true;
+        }
+    }
+
+    public void HidedCarriedItem()
+    {
+        equippedItemSpriteRenderer.color = new Color(0f, 0f, 0f, 0f);
+        armsCharacterAttribute.partVariantType = PartVariantType.none;
+        characterAttributeCustomisationList.Clear();
+        characterAttributeCustomisationList.Add(armsCharacterAttribute);
+        animationOverrides.ApplyCharacterCustomisationParameters(characterAttributeCustomisationList);
+
+        isCarrying = false;
     }
 }

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ea904c6a-eb28-47b8-9ff6-d11e16298db0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,56 +22,69 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/db/f142317d/Action.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32636AE6-960C-4FA2-A40F-A59D54AB0FF6/fc/b3af5584/PropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../mix and jam/unity-fv-ip-citybuilder-main/Library/PackageCache/com.unity.ide.rider@2.0.7/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/66/66c6d6c3/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeSystem/GameClock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SceneControllerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeSystem/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/Editor/ItemCodeDescriptionDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/TriggerObscuringItmeFader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/SO_AnimationType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C2BABAB-467C-4D89-BEEB-E2F694DC090F/dd/61f0c59a/Camera.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ItemNudge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/ItemCodeDescriptAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.3.8f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteWindow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/CharacterAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/TriggerObscuringItmeFader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/SO_ItemList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.3.8f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ItemNudge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.3.8f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryTextBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UiInventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C2BABAB-467C-4D89-BEEB-E2F694DC090F/77/4abe45f9/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Misc/SingletonMonoBehavior.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Tags.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene/ObscuringItemFader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Item/TriggerObscuringItmeFader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ObscuringItemFader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemDetails.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/SO_ItemList.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/ItemCodeDescriptionAttribute.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/Editor/ItemCodeDescriptionDrawer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemNudge.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Tags.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryTextBooks.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryTextBox.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UiInventorySlot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Animation/SO_AnimationType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Animation/CharacterAttribute.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Animation/AnimationOverride.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Animation/AnimationOverrides.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TimeSystem/TimeManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TimeSystem/GameClock.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UiInventorySlot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Item/TriggerObscuringItmeFader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SO_SceneExitPosition.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SceneControllerManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uq7ZBDACltQrXqBNRTQTajHc0X" />
@@ -85,7 +101,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -122,6 +138,14 @@
       <workItem from="1625889275381" duration="22463000" />
       <workItem from="1625920251869" duration="876000" />
       <workItem from="1625975102868" duration="9087000" />
+      <workItem from="1626688898760" duration="25805000" />
+      <workItem from="1626934036639" duration="6297000" />
+      <workItem from="1626949019507" duration="4434000" />
+      <workItem from="1627008602324" duration="7320000" />
+      <workItem from="1627368313851" duration="2054000" />
+      <workItem from="1627701704589" duration="2531000" />
+      <workItem from="1627704869388" duration="799000" />
+      <workItem from="1627713431397" duration="2185000" />
     </task>
     <servers />
   </component>
@@ -132,5 +156,37 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs</url>
+          <line>155</line>
+          <properties documentPath="D:\Learn\Udemy\FarmingRPG\FarmingRPGLearn\Assets\Scripts\Inventory\InventoryManager.cs" initialLine="150" containingFunctionPresentation="method 'RemoveItemAtPosition'">
+            <startOffsets>
+              <option value="5530" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5581" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UiInventorySlot.cs</url>
+          <line>31</line>
+          <properties documentPath="D:\Learn\Udemy\FarmingRPG\FarmingRPGLearn\Assets\Scripts\UI\UIInventory\UiInventorySlot.cs" initialLine="31" containingFunctionPresentation="method 'Awake'">
+            <startOffsets>
+              <option value="1158" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1159" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

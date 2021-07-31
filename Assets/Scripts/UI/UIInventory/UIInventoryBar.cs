@@ -9,6 +9,8 @@ public class UIInventoryBar : MonoBehaviour
 
     private bool isInventoryBarPositionBottom = true;
     public List<UiInventorySlot> inventorySlots;
+    public GameObject inventoryBarDraggedItem;
+    public GameObject inventoryTextBoxGameObject;
     public bool IsInventoryBarPositionBottom
     {
         get
@@ -58,6 +60,7 @@ public class UIInventoryBar : MonoBehaviour
     {
         if(_inventoryLocation == InventoryLocation.player)
         {
+            ClearInventory();
             for (int i = 0; i < inventoryList.Count; i++)
             {
                 if(i < inventorySlots.Count)
@@ -96,6 +99,26 @@ public class UIInventoryBar : MonoBehaviour
             rectTransform.anchoredPosition = new Vector2(0f, -2.5f);
 
             IsInventoryBarPositionBottom = false;
+        }
+    }
+
+    public void ClearHighlightSlot()
+    {
+        for (int i = 0; i < inventorySlots.Count; i++)
+        {
+            inventorySlots[i].IsSelected = false;
+            inventorySlots[i].inventorySlotHighlight.color = new Color(0, 0, 0, 0);
+        }
+    }
+
+    public void SetHighlightSlot()
+    {
+        for (int i = 0; i < inventorySlots.Count; i++)
+        {
+            if(inventorySlots[i].IsSelected == true)
+            {
+                inventorySlots[i].inventorySlotHighlight.color = new Color(1, 1f, 1f, 1f);
+            }
         }
     }
 }
