@@ -22,7 +22,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map/GridCoordinate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../mix and jam/unity-fv-ip-citybuilder-main/Library/PackageCache/com.unity.ide.rider@2.0.7/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SceneItemManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeSystem/GameClock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SceneControllerManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,6 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/ItemCodeDescriptAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/55/dcfab7b5/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SceneExit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,18 +43,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/TriggerObscuringItmeFader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/SO_ItemList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32636AE6-960C-4FA2-A40F-A59D54AB0FF6/02/dfb70be2/EditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.3.8f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ItemNudge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.3.8f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C2BABAB-467C-4D89-BEEB-E2F694DC090F/dc/786b46cb/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryTextBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C2BABAB-467C-4D89-BEEB-E2F694DC090F/51/d1d6f260/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameObjectSave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UiInventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ItemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/Vector3Serializable.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -77,7 +84,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Animation/AnimationOverrides.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Animation/MovementAnimationParameterControl.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TimeSystem/TimeManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TimeSystem/GameClock.cs" />
@@ -87,8 +93,22 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/TriggerObscuringItmeFader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SO_SceneExitPosition.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SceneExit.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SceneControllerManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Vector3Seralizeable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Vector3Serializable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneSave.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameObjectSave.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GenerateGUID.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/ISaveable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveLoadManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SceneItemManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SceneControllerManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Map/GridCoordinate.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Map/GridProperty.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Map/SO_GridProperties.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Map/TileMapGridProperties.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uq7ZBDACltQrXqBNRTQTajHc0X" />
@@ -105,6 +125,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -150,6 +171,7 @@
       <workItem from="1627701704589" duration="2531000" />
       <workItem from="1627704869388" duration="799000" />
       <workItem from="1627713431397" duration="2185000" />
+      <workItem from="1628328344179" duration="2711000" />
     </task>
     <servers />
   </component>
@@ -178,17 +200,30 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UiInventorySlot.cs</url>
-          <line>31</line>
-          <properties documentPath="D:\Learn\Udemy\FarmingRPG\FarmingRPGLearn\Assets\Scripts\UI\UIInventory\UiInventorySlot.cs" initialLine="31" containingFunctionPresentation="method 'Awake'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Scene/SceneControllerManager.cs</url>
+          <line>25</line>
+          <properties documentPath="D:\Learn\Udemy\FarmingRPG\FarmingRPGLearn\Assets\Scripts\Scene\SceneControllerManager.cs" initialLine="25" containingFunctionPresentation="method 'FadeAndSwitchScenes'">
             <startOffsets>
-              <option value="1158" />
+              <option value="855" />
             </startOffsets>
             <endOffsets>
-              <option value="1159" />
+              <option value="904" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Scene/SceneItemManager.cs</url>
+          <line>113</line>
+          <properties documentPath="D:\Learn\Udemy\FarmingRPG\FarmingRPGLearn\Assets\Scripts\Scene\SceneItemManager.cs" initialLine="121" containingFunctionPresentation="method 'ISaveableRestoreScene'">
+            <startOffsets>
+              <option value="3063" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3089" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
